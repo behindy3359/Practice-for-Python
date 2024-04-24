@@ -1,12 +1,12 @@
 class TestClass:
     aa = 1
-    def __init__(self) :
+    def __init__(a) :
         print('생성자')
-    def __del__(self) :
+    def __del__(b) :
         pass
-    def printMEssage(self) :
+    def printMEssage(c) :
         name ='한국인'
-        print(name,' ',self.aa)
+        print(name,' ',c.aa)
 
 print(TestClass.aa)
 test=TestClass()
